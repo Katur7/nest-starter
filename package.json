@@ -1,0 +1,25 @@
+{
+  "name": "nest-typescript-starter",
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp watch",
+    "lint": "tslint -c tslint.json -p tsconfig.json --force"
+  },
+  "dependencies": {
+    "nest.js": "*",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-tslint": "^8.0.0",
+    "gulp-typescript": "^3.1.6",
+    "run-sequence": "^1.2.2",
+    "tslint": "^5.2.0"
+  }
+}
